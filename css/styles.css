@@ -121,7 +121,7 @@ padding: 96px 0 120px
         padding: 24px 0;
         display: block;
         position: relative;
-        color: var(--first-color);
+        color: var(--fifth-color);
         transition: color var(--transition-duration-and-function);
 }
 
@@ -135,7 +135,7 @@ padding: 96px 0 120px
     border-radius: 2px;
     width: 0;
     height: 4px;
-    transition: width var(--transition-duration-and-function);
+    transition: color var(--transition-duration-and-function);
 }
 
 .menu-nav:hover:after,
@@ -210,7 +210,7 @@ font-family: 'Roboto', sans-serif;
     border: none;
     display: block;
     margin: 0 auto;
-    transition: background-color var(--transition-duration-and-function), box-shadow var(--transition-duration-and-function);
+    transition: background-color var(--transition-duration-and-function),
 }
 
 .order:hover,
@@ -404,7 +404,7 @@ border-color: var(--fifth-color);
     border-radius: 4px;
     width: 100%;
     height: 100%;
-    transition: border-color var(--transition-duration-and-function), color var(--transition-duration-and-function), fill var(--transition-duration-and-function);
+    transition: border-color var(--transition-duration-and-function), color var(--transition-duration-and-function);
 }
 
 
@@ -487,7 +487,9 @@ border-color: var(--fifth-color);
 
 .service-link:hover .photo-text,
 .service-link:focus .photo-text{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
 .services-div {
@@ -584,7 +586,7 @@ display: inline-block;
     top: 0;
     left: 0;
     background: rgba(46, 47, 66, 0.4);
-    transition: opacity var(--transition-duration-and-function), visibility var(--transition-duration-and-function), pointer-events var(--transition-duration-and-function);
+    transition: opacity var(--transition-duration-and-function), visibility var(--transition-duration-and-function);
 
 }
 
@@ -593,7 +595,7 @@ display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    min-height: 584px;
+    min-height: 576px;
     width: 408px;
     background-color: var(--model-color);
     border-radius: 4px;
