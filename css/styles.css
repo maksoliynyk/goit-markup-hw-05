@@ -427,7 +427,7 @@ border-color: var(--fifth-color);
         color var(--transition-duration-and-function),
         background-color var(--transition-duration-and-function),
         border-color var(--transition-duration-and-function),
-        box-shadow var(--transition-duration-and-function); ;
+        box-shadow var(--transition-duration-and-function); 
 }
 
 .button-function:hover,
