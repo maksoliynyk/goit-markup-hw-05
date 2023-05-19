@@ -424,10 +424,10 @@ border-color: var(--fifth-color);
         color: var(--sixth-color);
         background-color: var(--second-color);
         transition: 
-        color var(--transition-duration-and-function), 
-        background-color var(--transition-duration-and-function),
-        border var(--transition-duration-and-function), 
-        box-shadow var(--transition-duration-and-function) ;
+        color var(--transition-duration-and-function),
+        background-color 250ms var(--transition-duration-and-function),
+        border-color var(--transition-duration-and-function),
+        box-shadow var(--transition-duration-and-function); ;
 }
 
 .button-function:hover,
