@@ -166,7 +166,7 @@ padding: 96px 0 120px
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--third-color);
-    transition: var(--transition-duration-and-function);
+    transition: color var(--transition-duration-and-function);
 }
 /* =================================== /HEADER ============================================ */
 /* =================================== MAIN STUDIO 1 ======================================= */
@@ -210,7 +210,7 @@ font-family: 'Roboto', sans-serif;
     border: none;
     display: block;
     margin: 0 auto;
-    transition: background-color var(--transition-duration-and-function),
+    transition: background-color var(--transition-duration-and-function);
 }
 
 .order:hover,
@@ -425,7 +425,7 @@ border-color: var(--fifth-color);
         background-color: var(--second-color);
         transition: 
         color var(--transition-duration-and-function),
-        background-color 250ms var(--transition-duration-and-function),
+        background-color var(--transition-duration-and-function),
         border-color var(--transition-duration-and-function),
         box-shadow var(--transition-duration-and-function); ;
 }
