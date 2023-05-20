@@ -121,11 +121,17 @@ padding: 96px 0 120px
         padding: 24px 0;
         display: block;
         position: relative;
-        color: var(--fifth-color);
+        color: var(--first-color)
         transition: color var(--transition-duration-and-function);
 }
 
+.studio-head{
+    color: var(--fifth-color);
+}
 
+.portfolio-head{
+    color: var(--fifth-color);
+}
 .studio-head::after{
     position: absolute;
     bottom: -1px;
