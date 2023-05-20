@@ -127,10 +127,12 @@ padding: 96px 0 120px
 
 .studio-head{
     color: var(--fifth-color);
+    transition: color var(--transition-duration-and-function);
 }
 
 .portfolio-head{
     color: var(--fifth-color);
+    transition: color var(--transition-duration-and-function);
 }
 .studio-head::after{
     position: absolute;
@@ -423,7 +425,7 @@ border-color: var(--fifth-color);
 /* =================================== /MAIN STUDIO 5 ====================================== */
 /* =================================== MAIN PORTFOLIO ====================================== */
 .button{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
